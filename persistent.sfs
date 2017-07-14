@@ -353,6 +353,34 @@ GAME
 		{
 			intact = True
 		}
+		SpaceCenter/Administration/Facility/Building
+		{
+			intact = True
+		}
+		SpaceCenter/AstronautComplex/Facility/mainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/MissionControl/Facility/mainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/mainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/ForeverAlone
+		{
+			intact = True
+		}
+		SpaceCenter/SpaceplaneHangar/Facility/Building
+		{
+			intact = True
+		}
+		SpaceCenter/VehicleAssemblyBuilding/Facility/VAB2
+		{
+			intact = True
+		}
 	}
 	SCENARIO
 	{
@@ -376,7 +404,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.3.0
-		UT = 9.6399999999998833
+		UT = 28.419999999999483
 		activeVessel = 0
 		mapViewFiltering = 0
 		commNetUIModeTracking = Network
