@@ -1,0 +1,4 @@
+
+#Ignoring Quicksaves - prevents recall disasters
+quicksave.sfs
+quicksave.loadmeta
