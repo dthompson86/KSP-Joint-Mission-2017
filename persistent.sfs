@@ -1,13 +1,13 @@
 GAME
 {
 	version = 1.3.0
-	Title = JointMission2017 (SCIENCE)
+	Title = JointMission2017 (SANDBOX)
 	Description = No description available.
 	linkURL = 
 	linkCaption = 
-	Mode = SCIENCE_SANDBOX
+	Mode = SANDBOX
 	Status = 1
-	Seed = 408566704
+	Seed = 731588993
 	scene = 5
 	editor = None
 	flag = Squad/Flags/stripes
@@ -76,7 +76,7 @@ GAME
 			MissingCrewsRespawn = True
 			RespawnTimer = 7200
 			BypassEntryPurchaseAfterResearch = True
-			AllowStockVessels = False
+			AllowStockVessels = True
 			IndestructibleFacilities = False
 			ResourceAbundance = 1
 			ReentryHeatScale = 1
@@ -146,7 +146,7 @@ GAME
 		scene = 7, 8, 5, 6
 		RESOURCE_SETTINGS
 		{
-			GameSeed = 1605450630
+			GameSeed = 278760477
 			MaxDeltaTime = 21600
 		}
 	}
@@ -154,7 +154,7 @@ GAME
 	{
 		name = ScenarioNewGameIntro
 		scene = 5, 6, 8
-		kscComplete = False
+		kscComplete = True
 		editorComplete = False
 		tsComplete = False
 	}
@@ -164,24 +164,6 @@ GAME
 		scene = 7, 8, 5
 		Progress
 		{
-		}
-	}
-	SCENARIO
-	{
-		name = ResearchAndDevelopment
-		scene = 7, 8, 5, 6
-		sci = 0
-		Tech
-		{
-			id = start
-			state = Available
-			cost = 0
-			part = basicFin
-			part = mk1pod
-			part = solidBooster.sm
-			part = GooExperiment
-			part = trussPiece1x
-			part = parachuteSingle
 		}
 	}
 	SCENARIO
@@ -203,50 +185,6 @@ GAME
 	{
 		name = ScenarioDestructibles
 		scene = 5, 7, 6, 8
-		SpaceCenter/Administration/Facility/Building
-		{
-			intact = True
-		}
-		SpaceCenter/AstronautComplex/Facility/mainBuilding
-		{
-			intact = True
-		}
-		SpaceCenter/FlagPole/Facility
-		{
-			intact = True
-		}
-		SpaceCenter/LaunchPad/Facility/Flag
-		{
-			intact = True
-		}
-		SpaceCenter/MissionControl/Facility/mainBuilding
-		{
-			intact = True
-		}
-		SpaceCenter/ResearchAndDevelopment/Facility/mainBuilding
-		{
-			intact = True
-		}
-		SpaceCenter/ResearchAndDevelopment/Facility/ForeverAlone
-		{
-			intact = True
-		}
-		SpaceCenter/SpaceplaneHangar/Facility/Building
-		{
-			intact = True
-		}
-		SpaceCenter/TrackingStation/Facility/building
-		{
-			intact = True
-		}
-		SpaceCenter/TrackingStation/Facility/OuterDish
-		{
-			intact = True
-		}
-		SpaceCenter/VehicleAssemblyBuilding/Facility/VAB2
-		{
-			intact = True
-		}
 		SpaceCenter/VehicleAssemblyBuilding/Facility/ksp_pad_cylTank
 		{
 			intact = True
@@ -391,6 +329,10 @@ GAME
 		{
 			intact = True
 		}
+		SpaceCenter/FlagPole/Facility
+		{
+			intact = True
+		}
 		SpaceCenter/AstronautComplex/Facility/building
 		{
 			intact = True
@@ -417,19 +359,19 @@ GAME
 	{
 		name = SentinelScenario
 		scene = 7, 8, 5
-		NextSpawnTime = 25343.028069015578
+		NextSpawnTime = 26318.527385029694
 	}
 	FLIGHTSTATE
 	{
 		version = 1.3.0
-		UT = 9.8999999999998778
+		UT = 6.0399999999999592
 		activeVessel = 0
 		mapViewFiltering = 0
 		commNetUIModeTracking = Network
 		commNetUIModeFlight = Path
 		VESSEL
 		{
-			pid = a7c3cffd5733464eb5bb4b93a6f648a5
+			pid = 20d7b7ae42a34c75b0ab63fe7e8f094b
 			name = Ast. HSJ-227
 			type = SpaceObject
 			sit = ORBITING
